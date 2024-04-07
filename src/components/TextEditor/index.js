@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import {VscBold} from 'react-icons/vsc'
-import {GoItalic} from 'reac-icons/go'
+import {GoItalic} from 'react-icons/go'
 import {AiOutlineUnderline} from 'react-icons/ai'
 
 import {
@@ -8,7 +8,7 @@ import {
   Button,
   Image,
   ImageElement,
-  EditorConatiner,
+  EditorContainer,
   HrElement,
   ButtonContainer,
   TextAreaElement,

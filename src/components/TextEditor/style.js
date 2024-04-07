@@ -39,7 +39,7 @@ export const ImageElement = styled.div`
   justify-content: center;
   min-height: 50vh;
 `
-export const EditorContainer = styled.div`
+export const EditorContainer = styled.js`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -71,7 +71,7 @@ export const TextAreaElement = styled.textarea`
   margin: 20px;
   color: #f1f5f9;
   font-size: 16px;
-  font-style: ${props => props.fontstyle};
+  font-style: ${props => props.fontStyle};
   text-decoration: ${props => props.textDecoration};
   font-weight: ${props => props.fontWeight};
 `
